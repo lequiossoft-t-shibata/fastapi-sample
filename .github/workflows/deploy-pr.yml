@@ -3,7 +3,7 @@ on:
   pull_request:
     paths:
       - "app/**"
-      - .github/workflow/deploy-pr.yml
+      - .github/workflows/deploy-pr.yml
 
 env:
   REGISTRY: ghcr.io
